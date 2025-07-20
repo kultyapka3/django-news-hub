@@ -1,0 +1,70 @@
+# Python files
+*.py[cod]
+__pycache__/
+*.so
+*.pyo
+*.pyd
+
+# Django-specific files
+*.log
+*.pot
+*.po
+*.mo
+local_settings.py
+db.sqlite3
+
+# Virtual environment
+venv/
+env/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.suo
+.DS_Store
+
+# Build/compiled directories
+build/
+dist/
+*.egg-info/
+
+# Pycache
+__pycache__/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+
+# Test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Database migration backups
+migrations/*.py.bak
+
+# PyCharm specific files
+*.iml
+*.iws
+*.ipr
+
+# Other ignored files
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
+
+# Ignore .env file (environment variables)
+.env
+
+# Ignore static and media files (if they are not versioned)
+static/
+media/
+
+.venv
+lessonsDescription.txt
