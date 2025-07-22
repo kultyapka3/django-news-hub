@@ -62,9 +62,5 @@ migrations/*.py.bak
 # Ignore .env file (environment variables)
 .env
 
-# Ignore static and media files (if they are not versioned)
-static/
-media/
-
 .venv
 lessonsDescription.txt
